@@ -12,6 +12,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        Utils.navigationBarTrasparent(context: self)
+        Utils.changeItemColorNavigationBar(context: self, color: UIColor.white)
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
