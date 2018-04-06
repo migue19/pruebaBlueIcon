@@ -21,4 +21,12 @@ class Utils: NSObject {
         context.navigationController?.navigationBar.tintColor = color
     }
     
+    
+    static func changeColorNavigationBar(context: UIViewController, color:UIColor){
+       context.navigationController?.navigationBar.backgroundColor = color
+    }
+    
+    
+    
+    
 }

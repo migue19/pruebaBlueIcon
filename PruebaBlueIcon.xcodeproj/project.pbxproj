@@ -16,6 +16,9 @@
 		B8C089812075B3FF006D2649 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C089802075B3FF006D2649 /* LoginViewController.swift */; };
 		B8C089832075B96A006D2649 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C089822075B96A006D2649 /* RegistroViewController.swift */; };
 		B8C08985207676B0006D2649 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C08984207676B0006D2649 /* Utils.swift */; };
+		B8C08987207684B5006D2649 /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C08986207684B5006D2649 /* PerfilViewController.swift */; };
+		B8C08989207693C5006D2649 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C08988207693C5006D2649 /* Colors.swift */; };
+		B8C0898B207696A4006D2649 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C0898A207696A4006D2649 /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		B8C089802075B3FF006D2649 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B8C089822075B96A006D2649 /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
 		B8C08984207676B0006D2649 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		B8C08986207684B5006D2649 /* PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
+		B8C08988207693C5006D2649 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		B8C0898A207696A4006D2649 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +71,11 @@
 				B8C0896C2075A829006D2649 /* AppDelegate.swift */,
 				B8C0896E2075A829006D2649 /* ViewController.swift */,
 				B8C0897E2075B211006D2649 /* CustomButton.swift */,
+				B8C08988207693C5006D2649 /* Colors.swift */,
 				B8C08984207676B0006D2649 /* Utils.swift */,
 				B8C089802075B3FF006D2649 /* LoginViewController.swift */,
+				B8C0898A207696A4006D2649 /* TabBarViewController.swift */,
+				B8C08986207684B5006D2649 /* PerfilViewController.swift */,
 				B8C089822075B96A006D2649 /* RegistroViewController.swift */,
 				B8C089702075A829006D2649 /* Main.storyboard */,
 				B8C089732075A82B006D2649 /* Assets.xcassets */,
@@ -148,10 +157,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8C089812075B3FF006D2649 /* LoginViewController.swift in Sources */,
+				B8C08989207693C5006D2649 /* Colors.swift in Sources */,
 				B8C0896F2075A829006D2649 /* ViewController.swift in Sources */,
 				B8C0896D2075A829006D2649 /* AppDelegate.swift in Sources */,
+				B8C0898B207696A4006D2649 /* TabBarViewController.swift in Sources */,
 				B8C089832075B96A006D2649 /* RegistroViewController.swift in Sources */,
 				B8C0897F2075B211006D2649 /* CustomButton.swift in Sources */,
+				B8C08987207684B5006D2649 /* PerfilViewController.swift in Sources */,
 				B8C08985207676B0006D2649 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
